@@ -1,29 +1,24 @@
 #include <iostream>
 #include <string>
 #include "Class.h"
-#pragma once
 
-class Counter {
-private:
-    int y;
-public:
-    Counter(int value) {
-        y = value;
-    }
 
-    Counter() {
-        y = 1;
-    }
+Counter::Counter(int value) {
+	y = value;
+}
 
-    void incr() {
-        y++;
-    }
+Counter::Counter() {
 
-    void decr() {
-        y--;
-    }
+}
 
-    int rev() {
-        return this->y;
-    }
+void Counter::incr() {
+	y++;
 };
+void Counter::decr() {
+	y--;
+};
+
+int Counter::rev() {
+	return this->y;
+}
+
