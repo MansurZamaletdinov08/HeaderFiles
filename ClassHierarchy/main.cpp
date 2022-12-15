@@ -1,5 +1,10 @@
 ﻿#include <iostream>
+#include "Print_info.cpp"
 #include "Figure.h"
+#include "Traingle.h"
+#include "ReacTrain.h"
+#include "ReacTrain2.h"
+
 
 
 int main() {
@@ -7,6 +12,13 @@ int main() {
 	Figure figure;
 	Traingle traingle;
 	Rectangular_Traingle ReacTrain;
+	Rectangular_Traingle2 ReacTrain2;
+
+	print_info(&figure);
+	print_info(&traingle);
+	print_info(&ReacTrain);
+	print_info(&ReacTrain2);
+	/*
 	Rectangular_Traingle2 ReacTrain2;
 	Equilateral_Traingle EquTrain;
 	Isosceles_Traingle IsosTrain;
@@ -28,5 +40,5 @@ int main() {
 	print_info(&square);
 	print_info(&paral);
 	print_info(&rhomb);
-	
+	*/
 }

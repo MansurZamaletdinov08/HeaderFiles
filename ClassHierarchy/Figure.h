@@ -3,8 +3,8 @@
 
 class Figure {
 protected:
-	int a, b, c, d;
-	int A, B, C, D;
+	int a = 10, b = 20, c = 30, d = 40;
+	int A = 10, B = 20, C = 10, D = 20;
 	int F = 0;
 public:
 	virtual bool check();

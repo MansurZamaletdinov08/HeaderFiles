@@ -129,9 +129,16 @@
   <ItemGroup>
     <ClCompile Include="Figure.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Print_info.cpp" />
+    <ClCompile Include="ReacTrain.cpp" />
+    <ClCompile Include="ReacTrain2.cpp" />
+    <ClCompile Include="Traingle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Figure.h" />
+    <ClInclude Include="ReacTrain.h" />
+    <ClInclude Include="ReacTrain2.h" />
+    <ClInclude Include="Traingle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
