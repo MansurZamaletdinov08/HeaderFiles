@@ -1,9 +1,8 @@
 #include <iostream>
-#include "ReacTrain2.h"
+#include "IsoTrain.h"
 
-
-bool Rectangular_Traingle2::check() {
-	if ((A + B) == 90) {
+bool Isosceles_Traingle::check() {
+	if ((a == c) && (A == C) && (A + B + C == 180)) {
 		return true;
 	}
 	else {
@@ -11,8 +10,8 @@ bool Rectangular_Traingle2::check() {
 	}
 }
 
-void Rectangular_Traingle2::print_info() {
-	std::cout << "Прямоугольный Треугольник:" << std::endl;
+void Isosceles_Traingle::print_info() {
+	std::cout << "Равнобедренный треугольник:" << std::endl;
 	if (check() == true) {
 		std::cout << "Правильная" << std::endl;
 	}

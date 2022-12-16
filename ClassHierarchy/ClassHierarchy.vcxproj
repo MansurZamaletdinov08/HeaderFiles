@@ -127,17 +127,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EquTrain.cpp" />
     <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="IsoTrain.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Paral.cpp" />
     <ClCompile Include="Print_info.cpp" />
+    <ClCompile Include="Quad.cpp" />
     <ClCompile Include="ReacTrain.cpp" />
     <ClCompile Include="ReacTrain2.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Rhomb.cpp" />
+    <ClCompile Include="Square.cpp" />
     <ClCompile Include="Traingle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EquTrain.h" />
+    <ClInclude Include="IsoTrain.h" />
     <ClInclude Include="Figure.h" />
+    <ClInclude Include="Paral.h" />
+    <ClInclude Include="Print_info.h" />
+    <ClInclude Include="Quad.h" />
     <ClInclude Include="ReacTrain.h" />
     <ClInclude Include="ReacTrain2.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Rhomb.h" />
+    <ClInclude Include="Square.h" />
     <ClInclude Include="Traingle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

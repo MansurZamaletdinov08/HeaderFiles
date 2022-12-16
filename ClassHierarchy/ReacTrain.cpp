@@ -12,7 +12,7 @@ bool Rectangular_Traingle::check() {
 }
 
 void Rectangular_Traingle::print_info() {
-	std::cout << "Треугольник:" << std::endl;
+	std::cout << "Прямоугольный Треугольник:" << std::endl;
 	if (check() == true) {
 		std::cout << "Правильная" << std::endl;
 	}

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Figure.h"
-#pragma once
+#include "Print_info.h"
+
 
 void print_info(Figure* figure) {
 	figure->print_info();

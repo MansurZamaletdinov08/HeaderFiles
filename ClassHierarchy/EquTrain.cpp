@@ -1,9 +1,8 @@
 #include <iostream>
-#include "ReacTrain2.h"
+#include "EquTrain.h"
 
-
-bool Rectangular_Traingle2::check() {
-	if ((A + B) == 90) {
+bool Equilateral_Traingle::check() {
+	if ((a == b && c) && (A && B && C == 60)) {
 		return true;
 	}
 	else {
@@ -11,8 +10,8 @@ bool Rectangular_Traingle2::check() {
 	}
 }
 
-void Rectangular_Traingle2::print_info() {
-	std::cout << "Прямоугольный Треугольник:" << std::endl;
+void Equilateral_Traingle::print_info() {
+	std::cout << "Равносторонний треугольник:" << std::endl;
 	if (check() == true) {
 		std::cout << "Правильная" << std::endl;
 	}
